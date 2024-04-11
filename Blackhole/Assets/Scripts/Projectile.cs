@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,11 +13,11 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        _rigidbody.AddForce(-transform.right * projIntForce, ForceMode.Force);
+        _rigidbody.AddForce(-transform.right * projIntForce, ForceMode.Impulse);
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
     }
 }
