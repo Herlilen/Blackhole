@@ -19,5 +19,6 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+        _rigidbody.velocity *= 0.995f;
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -13,7 +14,7 @@ public class Blackhole : MonoBehaviour
     [Header("Black Hole Setting")]
     private Rigidbody _rigidbody;
     private Collider _collider;
-    public List<GameObject> inbondObjects = new List<GameObject>(); //array of inbonding objects
+    public List<GameObject> inbondObjects = new List<GameObject>(); //array of in-bonding objects
     public float gravitationalConstant = 6.674e-11f;
     
     private void Awake()
@@ -38,9 +39,9 @@ public class Blackhole : MonoBehaviour
 
     private void FixedUpdate()
     {
-        foreach (var inbondObject in inbondObjects)
+        foreach (var inbondObject in inbondObjects.ToArray())
         {
-            //get the rigidbody of the inbond obj so get the mass
+            //get the rigidbody of the in-bond obj so get the mass
             Rigidbody inbondRigidbodyb = inbondObject.GetComponent<Rigidbody>();
             
             //calculate the distance between black hole and the objects
@@ -52,14 +53,15 @@ public class Blackhole : MonoBehaviour
             //calculate the direction of the force
             Vector3 forceDirection = (gameObject.transform.position - inbondObject.transform.position).normalized;
             
-            //apply the gravitational force to the inbond object
+            //apply the gravitational force to the in-bond object
             inbondRigidbodyb.AddForce(forceDirection * gforce, ForceMode.Force);
             
             //absorb the object if distance < x
             if (distance <= .8)
             {
-                Destroy(inbondObject);
+                _rigidbody.mass += inbondRigidbodyb.mass;
                 inbondObjects.Remove(inbondObject);
+                Destroy(inbondObject);
             }
         }
     }
