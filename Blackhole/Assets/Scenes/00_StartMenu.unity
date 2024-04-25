@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.836478, g: 0.836478, b: 0.836478, a: 0}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 0.07826503, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
@@ -923,6 +923,8 @@ MonoBehaviour:
   _musicAudio: {fileID: 262480667}
   _volume: {fileID: 822325848}
   startGame: 0
+  playButton: {fileID: 1796795}
+  exitButton: {fileID: 1757943091}
 --- !u!82 &1136954904
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1622,8 +1624,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0, g: 0, b: 0, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1

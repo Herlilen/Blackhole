@@ -1,11 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.UI;
+using System.Collections;
 
 public class Menu : MonoBehaviour
 {
@@ -20,6 +18,8 @@ public class Menu : MonoBehaviour
 
     [Header("Game Status")] 
     public bool startGame;
+    public Button playButton;
+    public Button exitButton;
     
     private void Start()
     {
@@ -41,10 +41,17 @@ public class Menu : MonoBehaviour
 
     public void PlayGame()
     {
+        //disable the buttons
+        exitButton.interactable = false;
+        
         //change color filter to red
         _colorAdjustments.colorFilter.value = Color.red;
 
+        //set bool
         startGame = true;
+
+        //hide the cursor
+        Cursor.visible = false;
         
        //delay to load the level
        Invoke("PlayFirstLevel", 4f);
@@ -68,6 +75,7 @@ public class Menu : MonoBehaviour
     public void PlayFirstLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void EaseOut()
