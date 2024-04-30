@@ -1,170 +1,479 @@
 fileFormatVersion: 2
 guid: 480935d7fb8bb164aab06b13c75b5843
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Filter
-    100002: FilterStraps
-    100004: Glove_Left
-    100006: Glove_Right
-    100008: GoggleFrame
-    100010: GoggleGlass
-    100012: GoggleStrap
-    100014: Head
-    100016: Hips
-    100018: LeftArm
-    100020: LeftFoot
-    100022: LeftForeArm
-    100024: LeftHand
-    100026: LeftHand 1
-    100028: LeftHandIndex1
-    100030: LeftHandIndex2
-    100032: LeftHandIndex3
-    100034: LeftHandMiddle1
-    100036: LeftHandMiddle2
-    100038: LeftHandMiddle3
-    100040: LeftHandPinky1
-    100042: LeftHandPinky2
-    100044: LeftHandPinky3
-    100046: LeftHandRing1
-    100048: LeftHandRing2
-    100050: LeftHandRing3
-    100052: LeftHandThumb1
-    100054: LeftHandThumb2
-    100056: LeftHandThumb3
-    100058: LeftLeg
-    100060: LeftShoulder
-    100062: LeftToeBase
-    100064: LeftUpLeg
-    100066: Neck
-    100068: Overall_low
-    100070: RightArm
-    100072: RightFoot
-    100074: RightForeArm
-    100076: RightHand
-    100078: RightHand 1
-    100080: RightHandIndex1
-    100082: RightHandIndex2
-    100084: RightHandIndex3
-    100086: RightHandMiddle1
-    100088: RightHandMiddle2
-    100090: RightHandMiddle3
-    100092: RightHandPinky1
-    100094: RightHandPinky2
-    100096: RightHandPinky3
-    100098: RightHandRing1
-    100100: RightHandRing2
-    100102: RightHandRing3
-    100104: RightHandThumb1
-    100106: RightHandThumb2
-    100108: RightHandThumb3
-    100110: RightLeg
-    100112: RightShoulder
-    100114: RightToeBase
-    100116: RightUpLeg
-    100118: Scientist_Mesh
-    100120: //RootNode
-    100122: Shoe_Left
-    100124: Shoe_Right
-    100126: Spine
-    100128: Spine1
-    100130: Spine2
-    400000: Filter
-    400002: FilterStraps
-    400004: Glove_Left
-    400006: Glove_Right
-    400008: GoggleFrame
-    400010: GoggleGlass
-    400012: GoggleStrap
-    400014: Head
-    400016: Hips
-    400018: LeftArm
-    400020: LeftFoot
-    400022: LeftForeArm
-    400024: LeftHand
-    400026: LeftHand 1
-    400028: LeftHandIndex1
-    400030: LeftHandIndex2
-    400032: LeftHandIndex3
-    400034: LeftHandMiddle1
-    400036: LeftHandMiddle2
-    400038: LeftHandMiddle3
-    400040: LeftHandPinky1
-    400042: LeftHandPinky2
-    400044: LeftHandPinky3
-    400046: LeftHandRing1
-    400048: LeftHandRing2
-    400050: LeftHandRing3
-    400052: LeftHandThumb1
-    400054: LeftHandThumb2
-    400056: LeftHandThumb3
-    400058: LeftLeg
-    400060: LeftShoulder
-    400062: LeftToeBase
-    400064: LeftUpLeg
-    400066: Neck
-    400068: Overall_low
-    400070: RightArm
-    400072: RightFoot
-    400074: RightForeArm
-    400076: RightHand
-    400078: RightHand 1
-    400080: RightHandIndex1
-    400082: RightHandIndex2
-    400084: RightHandIndex3
-    400086: RightHandMiddle1
-    400088: RightHandMiddle2
-    400090: RightHandMiddle3
-    400092: RightHandPinky1
-    400094: RightHandPinky2
-    400096: RightHandPinky3
-    400098: RightHandRing1
-    400100: RightHandRing2
-    400102: RightHandRing3
-    400104: RightHandThumb1
-    400106: RightHandThumb2
-    400108: RightHandThumb3
-    400110: RightLeg
-    400112: RightShoulder
-    400114: RightToeBase
-    400116: RightUpLeg
-    400118: Scientist_Mesh
-    400120: //RootNode
-    400122: Shoe_Left
-    400124: Shoe_Right
-    400126: Spine
-    400128: Spine1
-    400130: Spine2
-    4300000: Overall_low
-    4300002: Glove_Left
-    4300004: Glove_Right
-    4300006: Filter
-    4300008: GoggleStrap
-    4300010: Shoe_Right
-    4300012: Shoe_Left
-    4300014: GoggleFrame
-    4300016: FilterStraps
-    4300018: GoggleGlass
-    9500000: //RootNode
-    13700000: Filter
-    13700002: FilterStraps
-    13700004: Glove_Left
-    13700006: Glove_Right
-    13700008: GoggleFrame
-    13700010: GoggleGlass
-    13700012: GoggleStrap
-    13700014: Overall_low
-    13700016: Shoe_Left
-    13700018: Shoe_Right
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Filter
+  - first:
+      1: 100002
+    second: FilterStraps
+  - first:
+      1: 100004
+    second: Glove_Left
+  - first:
+      1: 100006
+    second: Glove_Right
+  - first:
+      1: 100008
+    second: GoggleFrame
+  - first:
+      1: 100010
+    second: GoggleGlass
+  - first:
+      1: 100012
+    second: GoggleStrap
+  - first:
+      1: 100014
+    second: Head
+  - first:
+      1: 100016
+    second: Hips
+  - first:
+      1: 100018
+    second: LeftArm
+  - first:
+      1: 100020
+    second: LeftFoot
+  - first:
+      1: 100022
+    second: LeftForeArm
+  - first:
+      1: 100024
+    second: LeftHand
+  - first:
+      1: 100026
+    second: LeftHand 1
+  - first:
+      1: 100028
+    second: LeftHandIndex1
+  - first:
+      1: 100030
+    second: LeftHandIndex2
+  - first:
+      1: 100032
+    second: LeftHandIndex3
+  - first:
+      1: 100034
+    second: LeftHandMiddle1
+  - first:
+      1: 100036
+    second: LeftHandMiddle2
+  - first:
+      1: 100038
+    second: LeftHandMiddle3
+  - first:
+      1: 100040
+    second: LeftHandPinky1
+  - first:
+      1: 100042
+    second: LeftHandPinky2
+  - first:
+      1: 100044
+    second: LeftHandPinky3
+  - first:
+      1: 100046
+    second: LeftHandRing1
+  - first:
+      1: 100048
+    second: LeftHandRing2
+  - first:
+      1: 100050
+    second: LeftHandRing3
+  - first:
+      1: 100052
+    second: LeftHandThumb1
+  - first:
+      1: 100054
+    second: LeftHandThumb2
+  - first:
+      1: 100056
+    second: LeftHandThumb3
+  - first:
+      1: 100058
+    second: LeftLeg
+  - first:
+      1: 100060
+    second: LeftShoulder
+  - first:
+      1: 100062
+    second: LeftToeBase
+  - first:
+      1: 100064
+    second: LeftUpLeg
+  - first:
+      1: 100066
+    second: Neck
+  - first:
+      1: 100068
+    second: Overall_low
+  - first:
+      1: 100070
+    second: RightArm
+  - first:
+      1: 100072
+    second: RightFoot
+  - first:
+      1: 100074
+    second: RightForeArm
+  - first:
+      1: 100076
+    second: RightHand
+  - first:
+      1: 100078
+    second: RightHand 1
+  - first:
+      1: 100080
+    second: RightHandIndex1
+  - first:
+      1: 100082
+    second: RightHandIndex2
+  - first:
+      1: 100084
+    second: RightHandIndex3
+  - first:
+      1: 100086
+    second: RightHandMiddle1
+  - first:
+      1: 100088
+    second: RightHandMiddle2
+  - first:
+      1: 100090
+    second: RightHandMiddle3
+  - first:
+      1: 100092
+    second: RightHandPinky1
+  - first:
+      1: 100094
+    second: RightHandPinky2
+  - first:
+      1: 100096
+    second: RightHandPinky3
+  - first:
+      1: 100098
+    second: RightHandRing1
+  - first:
+      1: 100100
+    second: RightHandRing2
+  - first:
+      1: 100102
+    second: RightHandRing3
+  - first:
+      1: 100104
+    second: RightHandThumb1
+  - first:
+      1: 100106
+    second: RightHandThumb2
+  - first:
+      1: 100108
+    second: RightHandThumb3
+  - first:
+      1: 100110
+    second: RightLeg
+  - first:
+      1: 100112
+    second: RightShoulder
+  - first:
+      1: 100114
+    second: RightToeBase
+  - first:
+      1: 100116
+    second: RightUpLeg
+  - first:
+      1: 100118
+    second: Scientist_Mesh
+  - first:
+      1: 100120
+    second: //RootNode
+  - first:
+      1: 100122
+    second: Shoe_Left
+  - first:
+      1: 100124
+    second: Shoe_Right
+  - first:
+      1: 100126
+    second: Spine
+  - first:
+      1: 100128
+    second: Spine1
+  - first:
+      1: 100130
+    second: Spine2
+  - first:
+      4: 400000
+    second: Filter
+  - first:
+      4: 400002
+    second: FilterStraps
+  - first:
+      4: 400004
+    second: Glove_Left
+  - first:
+      4: 400006
+    second: Glove_Right
+  - first:
+      4: 400008
+    second: GoggleFrame
+  - first:
+      4: 400010
+    second: GoggleGlass
+  - first:
+      4: 400012
+    second: GoggleStrap
+  - first:
+      4: 400014
+    second: Head
+  - first:
+      4: 400016
+    second: Hips
+  - first:
+      4: 400018
+    second: LeftArm
+  - first:
+      4: 400020
+    second: LeftFoot
+  - first:
+      4: 400022
+    second: LeftForeArm
+  - first:
+      4: 400024
+    second: LeftHand
+  - first:
+      4: 400026
+    second: LeftHand 1
+  - first:
+      4: 400028
+    second: LeftHandIndex1
+  - first:
+      4: 400030
+    second: LeftHandIndex2
+  - first:
+      4: 400032
+    second: LeftHandIndex3
+  - first:
+      4: 400034
+    second: LeftHandMiddle1
+  - first:
+      4: 400036
+    second: LeftHandMiddle2
+  - first:
+      4: 400038
+    second: LeftHandMiddle3
+  - first:
+      4: 400040
+    second: LeftHandPinky1
+  - first:
+      4: 400042
+    second: LeftHandPinky2
+  - first:
+      4: 400044
+    second: LeftHandPinky3
+  - first:
+      4: 400046
+    second: LeftHandRing1
+  - first:
+      4: 400048
+    second: LeftHandRing2
+  - first:
+      4: 400050
+    second: LeftHandRing3
+  - first:
+      4: 400052
+    second: LeftHandThumb1
+  - first:
+      4: 400054
+    second: LeftHandThumb2
+  - first:
+      4: 400056
+    second: LeftHandThumb3
+  - first:
+      4: 400058
+    second: LeftLeg
+  - first:
+      4: 400060
+    second: LeftShoulder
+  - first:
+      4: 400062
+    second: LeftToeBase
+  - first:
+      4: 400064
+    second: LeftUpLeg
+  - first:
+      4: 400066
+    second: Neck
+  - first:
+      4: 400068
+    second: Overall_low
+  - first:
+      4: 400070
+    second: RightArm
+  - first:
+      4: 400072
+    second: RightFoot
+  - first:
+      4: 400074
+    second: RightForeArm
+  - first:
+      4: 400076
+    second: RightHand
+  - first:
+      4: 400078
+    second: RightHand 1
+  - first:
+      4: 400080
+    second: RightHandIndex1
+  - first:
+      4: 400082
+    second: RightHandIndex2
+  - first:
+      4: 400084
+    second: RightHandIndex3
+  - first:
+      4: 400086
+    second: RightHandMiddle1
+  - first:
+      4: 400088
+    second: RightHandMiddle2
+  - first:
+      4: 400090
+    second: RightHandMiddle3
+  - first:
+      4: 400092
+    second: RightHandPinky1
+  - first:
+      4: 400094
+    second: RightHandPinky2
+  - first:
+      4: 400096
+    second: RightHandPinky3
+  - first:
+      4: 400098
+    second: RightHandRing1
+  - first:
+      4: 400100
+    second: RightHandRing2
+  - first:
+      4: 400102
+    second: RightHandRing3
+  - first:
+      4: 400104
+    second: RightHandThumb1
+  - first:
+      4: 400106
+    second: RightHandThumb2
+  - first:
+      4: 400108
+    second: RightHandThumb3
+  - first:
+      4: 400110
+    second: RightLeg
+  - first:
+      4: 400112
+    second: RightShoulder
+  - first:
+      4: 400114
+    second: RightToeBase
+  - first:
+      4: 400116
+    second: RightUpLeg
+  - first:
+      4: 400118
+    second: Scientist_Mesh
+  - first:
+      4: 400120
+    second: //RootNode
+  - first:
+      4: 400122
+    second: Shoe_Left
+  - first:
+      4: 400124
+    second: Shoe_Right
+  - first:
+      4: 400126
+    second: Spine
+  - first:
+      4: 400128
+    second: Spine1
+  - first:
+      4: 400130
+    second: Spine2
+  - first:
+      43: 4300000
+    second: Overall_low
+  - first:
+      43: 4300002
+    second: Glove_Left
+  - first:
+      43: 4300004
+    second: Glove_Right
+  - first:
+      43: 4300006
+    second: Filter
+  - first:
+      43: 4300008
+    second: GoggleStrap
+  - first:
+      43: 4300010
+    second: Shoe_Right
+  - first:
+      43: 4300012
+    second: Shoe_Left
+  - first:
+      43: 4300014
+    second: GoggleFrame
+  - first:
+      43: 4300016
+    second: FilterStraps
+  - first:
+      43: 4300018
+    second: GoggleGlass
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Filter
+  - first:
+      137: 13700002
+    second: FilterStraps
+  - first:
+      137: 13700004
+    second: Glove_Left
+  - first:
+      137: 13700006
+    second: Glove_Right
+  - first:
+      137: 13700008
+    second: GoggleFrame
+  - first:
+      137: 13700010
+    second: GoggleGlass
+  - first:
+      137: 13700012
+    second: GoggleStrap
+  - first:
+      137: 13700014
+    second: Overall_low
+  - first:
+      137: 13700016
+    second: Shoe_Left
+  - first:
+      137: 13700018
+    second: Shoe_Right
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -172,7 +481,9 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -186,30 +497,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -219,14 +549,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

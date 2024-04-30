@@ -8,7 +8,7 @@ public class PostProcessingRest : MonoBehaviour
 {
     private Volume _Volume;
     private ColorAdjustments _colorAdjustments;
-    private float transitionDuration = 4;
+    private float transitionDuration = 5;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class PostProcessingRest : MonoBehaviour
     {
         if (_colorAdjustments.contrast.value < 0)
         {
-            _colorAdjustments.contrast.value += 25 * Time.deltaTime;
+            _colorAdjustments.contrast.value += 20 * Time.deltaTime;
         }
 
         if (_colorAdjustments.contrast.value >= 0)
@@ -38,7 +38,7 @@ public class PostProcessingRest : MonoBehaviour
 
         if (_colorAdjustments.contrast.value == 0)
         {
-            Invoke("DestoryThis", 6f);
+            Invoke("DestoryThis", 7f);
         }
     }
 
