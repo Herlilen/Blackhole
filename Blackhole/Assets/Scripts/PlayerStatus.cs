@@ -8,6 +8,7 @@ using Unity.Mathematics;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 
 public class PlayerStatus : MonoBehaviour
 {
@@ -162,6 +163,7 @@ public class PlayerStatus : MonoBehaviour
             if (!dead)
             {
                 dead = true;
+                
                 Death();
             }
         }
@@ -184,6 +186,8 @@ public class PlayerStatus : MonoBehaviour
         //add up death count
         deathTimes += 1;
         //save death times;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         Invoke("EndGame", 3f);
     }
 

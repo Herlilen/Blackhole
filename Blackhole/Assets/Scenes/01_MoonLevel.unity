@@ -6566,7 +6566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55bc75586bd2a148b9e7086bd267158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  creditsIncreaseRate: 0.5
+  creditsIncreaseRate: 1
   researchPoint: 0
   energyLevel: 20
   blackholeMass: 10
