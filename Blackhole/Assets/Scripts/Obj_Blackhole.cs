@@ -12,6 +12,7 @@ public class Obj_Blackhole : MonoBehaviour
     public TextMeshProUGUI cost;
     public float rpCost;
     public float creditCost;
+    public float researchTime;
     public float costFactor;
     public float contributionOutput;
     
@@ -40,16 +41,23 @@ public class Obj_Blackhole : MonoBehaviour
             //remove the cost
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                ResourceManager.instance.RemoveResource("CREDITS", creditCost);
-                ResourceManager.instance.RemoveResource("RESEARCH POINT", rpCost);
-                ResourceManager.instance.AddResource("BLACKHOLE MASS", 1);
-                PlayerStatus.instance.AddResource("CONTRIBUTION", contributionOutput);
+                PlayerStatus.instance.researching = true;
+                Invoke("costAndGenerate", researchTime);
             }
         }
         else
         {
             interaction.SetActive(false);
         }
+    }
+
+    void costAndGenerate()
+    {
+        ResourceManager.instance.RemoveResource("CREDITS", creditCost);
+        ResourceManager.instance.RemoveResource("RESEARCH POINT", rpCost);
+        ResourceManager.instance.AddResource("BLACKHOLE MASS", 1);
+        PlayerStatus.instance.AddResource("CONTRIBUTION", contributionOutput);
+        PlayerStatus.instance.researching = false;
     }
     
     private void OnTriggerEnter(Collider other)
