@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: ROACHJERKY
   discripiton: Looks like food
-  price: 50
+  price: 40
   satietyRegen: 50
   concentrationRegen: 0
   sanityRegin: 0
