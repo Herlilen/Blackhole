@@ -22163,7 +22163,7 @@ MonoBehaviour:
   satietyDecreaseRatePerSec: 0.5
   concentrationRegen: 0.5
   sanityDecreaseRatePerSec: 0.1
-  contributionRate: 1
+  contributionRate: 0.7
   researching: 0
   deathTimes: 0
   statusUI: {fileID: 263771221}

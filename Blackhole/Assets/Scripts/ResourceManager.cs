@@ -59,7 +59,7 @@ public class ResourceManager : MonoBehaviour
         
         //RESOURCE SETTING
         AddResource("CREDITS", creditsIncreaseRate * Time.deltaTime);
-        creditsIncreaseRate = (blackholeMass / 10) * (blackholeMass / 10);
+        creditsIncreaseRate = 1 + (blackholeMass / 10) * (blackholeMass / 10);
     }
 
     public void AddResource(string resourceType, float amount)
